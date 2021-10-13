@@ -1,10 +1,8 @@
-*{
-    margin: 0;
-    padding: 0;
-}
-body{
+.body_container{
     font-family:Lato;
     font-style: normal ;
+      margin: 0;
+        padding: 0;
 }
 .page_header{
    width:100%;;
@@ -92,7 +90,7 @@ span{
   color: #F16D7F;
 }
 
-.main_content{
+.main_blocks{
     width: 100%;
 }
 .blocks_main_content{
@@ -143,6 +141,7 @@ color: #FFFFFF;
 .photo_blocks_main_content{
     position: absolute;
     background-color: rgb(0, 0, 0);
+    max-width: 1129px;
 }
 .text_main_bottom_block{
     position: relative;
