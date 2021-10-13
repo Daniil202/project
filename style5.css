@@ -1,0 +1,167 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    font-family:Lato;
+    font-style: normal ;
+}
+.page_header{
+   width:100%;;
+   background: #222222;
+}
+.container{
+    max-width: 1129px;
+    width: 100%;
+    margin: 0 auto;
+}
+.container_menu{
+    max-width: 1129px;
+    height: 75px;
+    background-color: #222222;
+    display: flex;
+    justify-content: space-between;
+}
+.menu_picture_left{
+    width: 111px;
+    height: 38px;
+    display: flex;
+    justify-content:space-between;
+    margin-top: 18px;
+}
+.menu_picture_right{
+    width: 168px;
+    height: 37px;
+    display: flex;
+    justify-content:space-between; 
+    margin-top: 18px;
+    align-items: center;
+}
+.menu_picture_mini{
+    margin-top: 11px;
+}
+.menu_picture_right_mini{
+    margin: 0 33px 0 33px;
+}
+.main_header{
+    width: 100%;
+    background: #F1E4E6;
+    height: 764px;
+}
+.container_main_header{
+    display: flex;
+    justify-content:space-between;   
+}
+.img_main_header{
+  max-width: 563px;
+}
+.text_main_header{
+    max-width: 566px;
+}
+.brand{
+color: #222222;
+text-transform: uppercase;
+position: relative;
+width: 405px;
+height: 93px;
+margin: 289.9px 87px 381px 63.5px;
+}
+.brand::before{
+    content: "";
+    display: block;
+    width: 12px;
+    height:92px;
+    background-color: #F16D7F;
+    position: absolute;
+    top: -1px;
+    left: -28px;
+}
+.brand_title{
+ margin: 0px;
+ font-weight: 900;
+font-size: 48px;
+line-height: 58px;   
+}
+.brand_subtitle{
+    margin: 0px;
+    font-weight: 700;
+    font-size: 32px;
+    line-height: 38px;
+}
+span{
+  color: #F16D7F;
+}
+
+.main_content{
+    width: 100%;
+}
+.blocks_main_content{
+    display: flex;
+    justify-content: space-between;
+    padding-top: 65px;
+    text-transform: uppercase;
+}
+.block_photo_main{
+    width: 360px;
+    height: 260px ;
+    background-color:rgba(0,0,0,.3);
+}
+
+.left_block_main_content{
+    background-image: url(img/photo_women.png);
+}
+.text_subtitle_main_photo{
+font-weight: 400;
+font-size: 16px;
+line-height: 19px;
+text-align: center;
+color: #FFFFFF;
+}
+.text_title_main_photo{
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 29px;
+    text-align: center;
+}
+.center_block_main_content{
+    background-image: url(img/photo_men.png);
+}
+.right_block_main_content{
+    background-image: url(img/photo_kids.png);
+   
+}
+.text_main_block{
+    margin: 105px 103px; 
+}
+
+.battom_block_main_content{
+    width:100%;
+    padding-top: 30px;
+    max-width: 1129px;
+}
+
+.photo_blocks_main_content{
+    position: absolute;
+    background-color: rgb(0, 0, 0);
+}
+.text_main_bottom_block{
+    position: relative;
+    text-transform: uppercase;
+    width: 159.72px;
+    height: 50px;
+    margin: 0 auto;
+    margin-top: 65px;
+}
+.text_subtitle_main{    
+font-weight: 400;
+font-size: 16px;
+line-height: 19px;
+color: #FFFFFF;
+text-align: center;
+}
+.text_title_main{    
+font-weight: 900;
+font-size: 24px;
+line-height: 29px;
+text-align: center;
+}
