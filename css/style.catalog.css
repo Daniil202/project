@@ -230,6 +230,7 @@ margin-top: 30px;
 }
 .blocks_txt_product_item{
 padding: 24px 28px 20px 16px;
+box-sizing: border-box;
 }
 .title_block_product_item{
   font-weight: 400;
@@ -243,6 +244,7 @@ padding: 24px 28px 20px 16px;
   font-size: 14px;
   line-height: 17px;
   color: #9f9f9f;
+  margin: 12.65px 0 18px 0;
 }
 .container_pagination{
 text-align: center;
